@@ -30,7 +30,7 @@ def author_name
  #end
 
  self.author == nil ? nil : self.author.name
- 
+
 end
 
 
