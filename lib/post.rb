@@ -23,12 +23,14 @@ def posts
   end
 
 def author_name
- if self.author
-   self.author.name
- else
-   nil
- end
- 
+ #if self.author
+   #self.author.name
+ #else
+#   nil
+ #end
+
+ self.author == nil ? nil : self.author.name
+
 end
 
 
