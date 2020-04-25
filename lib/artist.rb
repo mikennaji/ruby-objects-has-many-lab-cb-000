@@ -13,7 +13,7 @@ end
 
 def add_song_by_name(name)
   newsong = Song.new(name)
-  newsong.artist = self
+  add_song(newsong)
 end
 
 
